@@ -56,6 +56,5 @@ def index():
 	return 'Cotización de las 4 empresas tecnológicas más corizadas en bolsa: ' + '. .EMPRESA MICROSOFT: $' +empmicrosoft +'. .EMPRESA APPLE $'+empapple+' . .EMPRESA CISCO: $'+empcisco+ ' . .EMPRESA ORACLE: $'+emporacle
 	
 	
-
 if __name__ == '__main__':
 	app.run(port = PORT,debug = DEBUG)
