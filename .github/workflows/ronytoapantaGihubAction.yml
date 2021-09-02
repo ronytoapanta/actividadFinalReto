@@ -1,0 +1,19 @@
+name: ronytoapantaGihubAction
+
+on:
+  push:
+    branches:
+      - main
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+     
+      - uses: actions/checkout@v2
+      - name: Deploy to Heroku
+        uses: behe/heroku-build@v1
+        #continue-on-error: true
+        with:
+          app-name: "retoapp"
+          api-key: "${{secrets.HEROKU_API_KEY}}"
