@@ -53,7 +53,7 @@ def index():
 	
 	emporacle=stgoracle.find('span',class_='Trsdu(0.3s) Fw(b) Fz(36px) Mb(-4px) D(ib)').text.strip()
 	
-	return 'COTIZACIÓN EN BOLSA DE EMPRESAS TECNOLÓGICAS: ' + 'EMPRESA MICROSOFT' +empmicrosoft +' EMPRESA APPLE $'+empapple+' EMPRESA CISCO $'+empcisco+ ' EMPRESA ORACLE $'+emporacle
+	return 'Cotización de las 4 empresas tecnológicas más corizadas en bolsa: ' + '. .EMPRESA MICROSOFT: $' +empmicrosoft +'. .EMPRESA APPLE $'+empapple+' . .EMPRESA CISCO: $'+empcisco+ ' . .EMPRESA ORACLE: $'+emporacle
 	
 	
 
